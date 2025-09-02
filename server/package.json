@@ -1,6 +1,19 @@
 {
+  "name": "submit-monetary-transaction",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "start": "node src/app",
+    "dev": "nodemon --inspect"
+  },
   "dependencies": {
-    "body-parser": "^2.2.0",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.19",
+    "jest": "^30.1.3",
+    "nodemon": "^2.0.22"
   }
 }
